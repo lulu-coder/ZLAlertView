@@ -4,7 +4,6 @@
 //
 //  Created by 张璐 on 16/1/12.
 //  Copyright © 2016年 张璐. All rights reserved.
-//
 
 #import "ZLAlertView.h"
 #define ScreenWeight [UIScreen mainScreen].bounds.size.width
