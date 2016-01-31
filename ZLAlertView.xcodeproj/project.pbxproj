@@ -15,6 +15,7 @@
 		0C15F68B1C44F3ED00E01EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15F6891C44F3ED00E01EC0 /* LaunchScreen.storyboard */; };
 		0C15F6961C44F3ED00E01EC0 /* ZLAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C15F6951C44F3ED00E01EC0 /* ZLAlertViewTests.m */; };
 		0C15F6A11C44F3ED00E01EC0 /* ZLAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C15F6A01C44F3ED00E01EC0 /* ZLAlertViewUITests.m */; };
+		0C15F6B11C44F48600E01EC0 /* ZLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C15F6B01C44F48600E01EC0 /* ZLAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0C15F69C1C44F3ED00E01EC0 /* ZLAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C15F6A01C44F3ED00E01EC0 /* ZLAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAlertViewUITests.m; sourceTree = "<group>"; };
 		0C15F6A21C44F3ED00E01EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C15F6AF1C44F48600E01EC0 /* ZLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLAlertView.h; sourceTree = "<group>"; };
+		0C15F6B01C44F48600E01EC0 /* ZLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		0C15F67A1C44F3ED00E01EC0 /* ZLAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				0C15F6AE1C44F44C00E01EC0 /* ZLAlertView */,
 				0C15F67E1C44F3ED00E01EC0 /* AppDelegate.h */,
 				0C15F67F1C44F3ED00E01EC0 /* AppDelegate.m */,
 				0C15F6811C44F3ED00E01EC0 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				0C15F6A21C44F3ED00E01EC0 /* Info.plist */,
 			);
 			path = ZLAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		0C15F6AE1C44F44C00E01EC0 /* ZLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				0C15F6AF1C44F48600E01EC0 /* ZLAlertView.h */,
+				0C15F6B01C44F48600E01EC0 /* ZLAlertView.m */,
+			);
+			path = ZLAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C15F6831C44F3ED00E01EC0 /* ViewController.m in Sources */,
+				0C15F6B11C44F48600E01EC0 /* ZLAlertView.m in Sources */,
 				0C15F6801C44F3ED00E01EC0 /* AppDelegate.m in Sources */,
 				0C15F67D1C44F3ED00E01EC0 /* main.m in Sources */,
 			);
@@ -363,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -496,6 +510,7 @@
 				0C15F6A71C44F3ED00E01EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C15F6A81C44F3ED00E01EC0 /* Build configuration list for PBXNativeTarget "ZLAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				0C15F6AA1C44F3ED00E01EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C15F6AB1C44F3ED00E01EC0 /* Build configuration list for PBXNativeTarget "ZLAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				0C15F6AD1C44F3ED00E01EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
